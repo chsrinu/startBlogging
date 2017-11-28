@@ -1,0 +1,53 @@
+.indexbody{
+ background-color: #4FC3F7;
+ margin:10px auto;
+ margin-top: 50px;
+ margin-bottom: 0;
+}
+.modal-content{
+  background-color: #4FC3F9;
+  color:#fff;
+}
+form{
+
+}
+button{
+   background-color: #4CAF50;
+}
+.profilebody{
+  background-image: url("images\\myimage.jpg")
+}
+.navbar-custom{
+  background-color: #fff;
+}
+.carousel
+{
+  width:100%;
+  margin:auto;
+  margin-top:20;
+  padding:1%;
+}
+.slideItem
+{
+ max-height:400px;
+ width:100%
+}
+.bodyImage1 {
+    width: 360;
+    float: right;
+    padding: 20;
+  }
+.bodyImage2{
+  width: 360;
+  float: left;
+  margin: 30;
+}
+
+.img-rounded {
+    border-radius: 40px;
+}
+footer h3{
+  margin:0;
+  background-color:black;
+  padding:10;
+}

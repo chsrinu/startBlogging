@@ -1,0 +1,30 @@
+#tools{
+background:#d3d3d3;
+padding-left: 20px;
+}
+#writepad{
+margin: 20px;
+height:78%;
+border:1px solid black;
+font-size: large;
+font-family: sans-serif;
+overflow-y: scroll;
+}
+footer{
+background:#d3d3d3;
+padding: 10px;
+margin-bottom: 15px;
+}
+.toolTabs{
+  margin: 2px;
+}
+.fontStyle,.fontAlignment,.uploadImage,.textColor,.textBgColor{
+  background:white;
+}
+.active{
+  background:#bdbdbd;
+  font-size: 11;
+  font-weight:bold;
+  font-style:italic;
+  text-decoration: underline;
+}

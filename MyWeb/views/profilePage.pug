@@ -1,0 +1,23 @@
+html
+  head
+    title Profile
+    link(rel='stylesheet',type='text/css',href='/css/profilestyles.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+  body
+    div
+      div.backView.parallaxStyle(data-bgimage=image1)
+      div#name.positioning.centered.textBg=name
+
+    div.aboutAuthor.parallaxStyle(data-bgimage=image2)
+      center
+        h1#about(style="text-align: center;margin-top: 4;padding: 80;padding-top: 10%;margin-left: 20%;margin-right: 20%;")
+          u.textBg About me #[br]
+          div.textBg=about
+
+    div.frontView.parallaxStyle(data-bgimage=image3)
+      div.positioning.bottom
+        button#articleGallery(style='margin-right:60;') MyArticles
+        button#newArticle(style='margin-left:60;') Write new
+    script(src="/profilePageValidations.js" type='text/javascript')

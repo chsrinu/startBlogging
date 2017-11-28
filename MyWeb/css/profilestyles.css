@@ -1,0 +1,38 @@
+.parallaxStyle{
+  height:100%;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backView {
+-webkit-filter:blur(5px);
+-moz-filter: blur(5px);
+-o-filter: blur(5px);
+-ms-filter: blur(5px);
+filter:blur(5px);
+ z-index: -1;
+}
+.positioning{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: -webkit-xxx-large;
+}
+.centered {
+  top: 50%;
+  color:white;
+}
+.bottom{
+  top: 290%;
+}
+.aboutAuthor{
+  /*background-image: url(../images/prof_backView.jpg);*/
+  color:white;
+}
+.textBg{
+  background-color: rgba(0,0,0,0.6);
+}
+.frontView{
+  /*background-image: url(../images/prof_frontView.jpg);*/
+}

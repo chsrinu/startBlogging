@@ -1,0 +1,159 @@
+  <head>
+       <title>HTML</title>
+       <html>
+       <meta charset="utf-8">
+       <meta http-equiv="cache-control" content="max-age=0"
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       <link rel="stylesheet"  href="/css/mystyles.css">
+
+  </head>
+
+      <nav class="navbar navbar-fixed-top navbar-custom">
+        <!--<nav class="navbar fixed-top navbar-expand-md navbar-dark double-nav scrolling-navbar">-->
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">StartBlogging</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#showAboutUsContent">About Us</a></li>
+            <li><a href="#showContactinfo">Contact Us</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li id="signup" data-target="#dialog" data-toggle="modal"><a href="#"> <span class="glyphicon glyphicon-user"></span>&nbsp Sign Up</a></li>
+            <li id="login" data-target="#dialog" data-toggle="modal"><a href="#"><span class="glyphicon glyphicon-log-in"></span>&nbsp&nbspLogin</a></li>
+          </ul>
+        </div>
+      </nav>
+      <body  class="indexbody">
+
+      <div id="dialog" class="modal fade"  >
+        <div class="modal-dialog"  >
+          <div class="modal-content">
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal">&times;</button>
+              <h2 id="popUpHeader" class="modal-title" align="center"></h2>
+            </div>
+            <div class="modal-body">
+              <form class="navbar-center">
+                <div class="form-group input-group-lg ">
+                  <label for="userEmail"><h2>EmailId</h2></label>
+                  <input type="text" class="form-control" id="userEmail">
+                </div>
+                <div class="form-group input-group-lg ">
+                  <label for="password"><h2>Password</h2></label>
+                  <input type="password" class="form-control" id="password">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer" id="dialogFooterDiv">
+              <div class="form-group" style="text-align:center">
+                <button id="dialogFooterButton" class="btn btn-primary btn-block btn-md" ><h2 id="popUpFooter"></h2></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="carousel slide" id="myCarousel" data-ride="carousel">
+              <ol class="carousel-indicators">
+               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+               <li data-target="#myCarousel" data-slide-to="3"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img class="slideItem" src="images/insp-image-1.jpg"  alt="Quote-1">
+                </div><!--item ending-->
+                <div class="item">
+                  <img class="slideItem" src="images/graphic-image-11.jpg" alt="Quote-2">
+                </div><!--item ending-->
+                <div class="item">
+                  <img class="slideItem" src="images/graphic-image-3.jpg" alt="Quote-5">
+                </div><!--item ending-->
+                <div class="item">
+                  <img class="slideItem" src="images/graphic-image-19.jpg" alt="Quote-3">
+                </div><!--item ending-->
+
+              </div><!--carousel-inner ending-->
+              <!-- Left and right controls -->
+               <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                 <span class="glyphicon glyphicon-chevron-left"></span>
+                 <span class="sr-only">Previous</span>
+               </a>
+               <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                 <span class="glyphicon glyphicon-chevron-right"></span>
+                 <span class="sr-only">Next</span>
+               </a>
+            </div><!--carousel ending-->
+          </div><!--column ending-->
+        </div><!--row ending-->
+      </div><!--container ending-->
+
+    <p><h1 style="color: whitesmoke;text-align:center;">Recycle your experience by sharing with others, Don't let it go waste!!! &nbsp<b style="color: white;">StartBlogging..&nbsp</b></h1></p>
+    <br>
+    <div class="container" style="color: whitesmoke;" >
+      <img src="images/body-image-2.gif" class="bodyImage1 img-rounded">
+      <h3 style="margin-right:300;">
+        Blog is one of the way of sharing our thoughts/ experiences/ knowledge to others. From
+        the writer point of view they can be used as a diary to keep a record of one's own achievements and interesting
+        material. Connection with global communities provides insights and networks that can accelerate your
+        learning process, opportunity and success. Today blogging seems to be an amusing technique since it teaches new things everyday
+        to reader and surprisingly the writer as well. Readers definition for blog is..
+      </h3><br>
+      <h2 style="background-color:white;color:#4FC3F7;text-align:center">
+        <i>"__online magazines, books and resources all rolled into one is a blog__"</i>
+      </h2>
+    </div>
+    <br>
+    <div class="container" style="color: whitesmoke;" >
+      <img src="images/body-image-6.jpg" class="bodyImage2 img-rounded">
+      <h3 style="margin-left:400;">Creating is one thing, but publishing is another. Being willing to put your ideas “out there”
+         and answer the questions related to your blog takes bravery and a willingness to be vulnerable. Doubts may stop you. These include
+         <ul style="margin-left:20;margin-top:10;margin-bottom:15;">
+          <li>Why would anyone want to read my ideas?</li>
+           <li>I have nothing new to say.</li>
+        </ul>
+         Overcome your fears and publish your creation.</h3><br>
+         <h2 id="showAboutUsContent" style="background-color:white;color:#4FC3F7;text-align:center">
+           <i>"__for sure atleast 1 will be benefitted in 7000000000 (7 billion) population__"</i>
+         </h2>
+
+    </div>
+    <div  class="container" style="color: whitesmoke;">
+        <h1><b style="color: whitesmoke;">About Us</b></h1>
+          <!--<img src="images/url-image-1.jpg" class="bodyImage3 img-rounded">
+          <h3 style="margin-right:450;">-->
+          <h3>
+            StartBlogging provide everything for Starting a blog. A couple of them include
+
+            <ul><br>
+	            <li>space for writing on the cloud,</li>
+	            <li>unique url for your profile </li>
+              <li>different themes to grab the visitors attention</li>
+            </ul>
+            You can share your experiences from multiple genres including Cooking, Movie reviews, Travel, Education, Immigration,
+            Coding, Gaming, Marrige, Love, friendship, Health, Hospitals, Jobs, Interviews, short stories etc..  </h3><br>
+
+          <center>  <img src="images/gallery_view_1.gif" align="middle" class="bodyImage3 img-rounded"></center>
+
+
+          <h2 style="background-color:white;color:#4FC3F7;text-align:center">
+          <a href="profile/demo"><i>"__Kick start your Blogging jouney and create a profile like this..__"</i></a>
+          </h2>
+    </div>
+
+  </body>
+  <footer id="showContactinfo" >
+    <script type="text/javascript" src="indexPageValidations.js"></script>
+
+    <center><i><h3 class="text-muted">For any queries please write to info@startblogging.com</h3></i></center>
+
+  </footer>
+</html>
